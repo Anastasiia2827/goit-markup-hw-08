@@ -7,16 +7,16 @@
     height: 100%;
     background-color: #fff;
 
-    // opacity: 0;
-    // visibility: hidden;
-    // pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
-// .mobile-menu.is-open {
-//       opacity: 1;
-//       visibility: visible;
-//       pointer-events: auto;
-//   }
+.mobile-menu.is-open {
+ opacity: 1;
+ visibility: visible;
+ pointer-events: auto;
+ }
 
 .mobile-menu__container {
         position: relative;

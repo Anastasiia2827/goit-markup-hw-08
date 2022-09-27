@@ -93,7 +93,7 @@ padding: 0;
 
     &:focus {
             color: var(--accent-color);
-        }
+     }
 }
 
 .mobile-menu__links-list {
@@ -103,7 +103,12 @@ padding: 0;
 
 .mobile-menu__links-item {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
-       
+    padding-right: 10px;
+
+    &:last-child {
+      padding-right: 0;
+      border-right: none;
+        }
 }
 
 .mobile-menu__links-link {
@@ -116,8 +121,21 @@ padding: 0;
         border: #757575;
 
         &:focus {
-                color: var(--accent-color);
+            color: var(--accent-color);
             }
+}
+
+@media screen and (min-width: 768px) {
+.menu-links {
+        display: block;
+    }
+
+    .header-contacts {
+        display: flex;
+    }
+.mobile-menu-btn {
+    display: none;
+}
 }
 
 
