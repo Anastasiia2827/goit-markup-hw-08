@@ -1,0 +1,44 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.current.menu-links__link {
+    color: var(--accent-color);
+}
+
+img {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul,
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+body {
+    font-family: var(--primery-font);
+    color: var(--primary-text-color);
+    background-color: var(--primery-background-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}

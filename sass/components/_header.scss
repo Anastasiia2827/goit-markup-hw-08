@@ -1,0 +1,230 @@
+.menu-links {
+    display: none;
+}
+
+.header-contacts {
+    display: none;
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+.mobile-menu-btn {
+border: none;
+background-color: transparent;
+padding: 0;
+}
+
+.main-menu {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.mobile-menu-btn_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu__nav-list {
+    padding-top: 48px;
+    // margin-bottom: 302px;
+}
+
+.mobile-menu__nav-item {
+    display: flex;
+    padding-bottom: 32px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.mobile-menu__link {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.175;
+        letter-spacing: 0.02em;
+    
+        color: var(--primary-text-color);
+
+        transition: color;
+        @extend %transition;
+
+        &:hover,
+        &:focus {
+         color: var(--accent-color);
+      }
+}
+
+.mobile-menu__contacts-list {
+    margin-bottom: 64px;
+}
+
+.mobile-menu__contacts-item {
+     display: flex;
+    padding-bottom: 32px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.mobile-menu__contacts-tel {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 1.18;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+.mobile-menu__contacts-email {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #757575;
+
+    &:focus {
+            color: var(--accent-color);
+        }
+}
+
+.mobile-menu__links-list {
+   display: flex; 
+  column-gap: 20px;   
+}
+
+.mobile-menu__links-item {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+       
+}
+
+.mobile-menu__links-link {
+    
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        border: #757575;
+
+        &:focus {
+                color: var(--accent-color);
+            }
+}
+
+
+
+
+
+
+
+// .main-menu {
+//     border-bottom: 1px solid #ececec;
+// }
+
+// .menu {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .menu-nav {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .menu-links {
+//     display: flex;
+// }
+
+// .header-contacts {
+//     display: flex;
+//     margin-left: auto;
+// }
+
+// .menu-links__item {
+//     margin-right: 50px;
+
+//     &:last-child {
+//       margin-right: 0px;
+//         }
+// }
+
+// .menu-links__link {
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+//     display: block;
+
+//     font-family: var(--primery-font);
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     color: var(--primary-text-color);
+
+//     transition: color;
+//     @extend %transition;
+
+//     position: relative;
+
+//     &:hover,
+//     &:focus {
+//      color: var(--accent-color);
+//         }
+// }
+
+// .menu-links__link.current.menu-links__link::after {
+//     position: absolute;
+//     content: "";
+//     display: block;
+//     width: 100%;
+//     height: 4px;
+//     left: 0;
+//     bottom: -1px;
+//     background-color: var(--accent-color);
+//     border-radius: 2px;
+// }
+
+// .header-contacts {
+//     column-gap: 50px;
+// }
+
+// .contacts-link {
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+//     display: flex;
+//     align-items: center;
+
+//     font-family: var(--primery-font);
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     color: var(--title-text-color);
+//     transition: color;
+//     @extend %transition;
+
+//     &:hover,
+//     &:focus {
+//         color: var(--accent-color);
+//     }
+// }
+
+// .contacts-link__icon {
+//     margin-right: 10px;
+//     fill: #757575;
+//     transition: fill;
+//     @extend %transition;
+
+//     .header-contacts a:hover &,
+//     .header-contacts a:focus & {
+//         fill: var(--accent-color);
+//     }
+// }

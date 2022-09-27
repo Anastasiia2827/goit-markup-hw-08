@@ -1,0 +1,35 @@
+
+
+.work-list {
+    display: flex;
+}
+
+.work-list__item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.work-list__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 370px;
+    height: 70px;
+
+    font-weight: 700;
+    line-height: 1.14;
+
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        rgba(47, 48, 58, 0.8);
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.work-list__item {
+    position: relative;
+}
