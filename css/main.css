@@ -159,6 +159,7 @@ body {
 
 .mobile-menu__nav-list {
   padding-top: 48px;
+  margin-bottom: 302px;
 }
 
 .mobile-menu__nav-item {
@@ -222,7 +223,6 @@ body {
 
 .mobile-menu__links-item {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
-  padding-right: 10px;
 }
 .mobile-menu__links-item:last-child {
   padding-right: 0;

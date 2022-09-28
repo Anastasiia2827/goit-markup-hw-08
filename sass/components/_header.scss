@@ -30,7 +30,7 @@ padding: 0;
 
 .mobile-menu__nav-list {
     padding-top: 48px;
-    // margin-bottom: 302px;
+    margin-bottom: 302px;
 }
 
 .mobile-menu__nav-item {
@@ -103,7 +103,8 @@ padding: 0;
 
 .mobile-menu__links-item {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
-    padding-right: 10px;
+    // padding-right: 10px;
+
 
     &:last-child {
       padding-right: 0;
