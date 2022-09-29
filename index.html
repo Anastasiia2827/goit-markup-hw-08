@@ -117,24 +117,8 @@
       <section class="advances">
         <div class="container">
                   <h2 class="visually-hidden">Наші особливості</h2>
-          <!-- <ul class="advances-svg list">
-            <li class="advances-svg__item">
-              <svg class="advances-svg__icon" aria-label="зображення радару">
-                <use href="./images/symbol-defs.svg#icon-advances1"></use>
-              </svg>
-            </li>
-            <li class="advances-svg__item">
-              
-            </li>
-            <li class="advances-svg__item">
-             
-            </li>
-            <li class="advances-svg__item">
-              
-            </li>
-          </ul> -->
-          <ul class="advances-text list">
-            <li class="advances-text__item">
+                    <ul class="advances-text list">
+               <li class="advances-text__item">
               <div class="advance-svg">
                 <svg class="advances-svg__icon" aria-label="зображення радару">
                 <use href="./images/symbol-defs.svg#icon-advances1"></use>
@@ -185,44 +169,77 @@
         </div>
       </section>
     <!--чим мизаймаємось-->
-    <!-- <section class="section">
+    <section class="section section__work">
         <div class="container">
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="work-list list">
             <li class="work-list__item">
               <div class="work-img">
-                <img
+                 <picture>
+                  <source
+                    srcset="./images/imgdesktop.webp 1x, ./images/imgdesktop@2x.webp 2x"
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/imgdesktop.jpg 1x, ./images/imgdesktop@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
                   class="work-pic"
-                  src="./images/box1.jpg"
+                  src="#"
                   alt="Людина працює за ноутбуком"
-                  width="370"
-                />
-              </div>
+                  width="370"/>
+                </picture>
+                 </div>
               <p class="work-list__text">Десктопні додатки</p>
             </li>
             <li class="work-list__item">
-              <img
+              <picture>
+                  <source
+                    srcset="./images/imgdesktop1.webp 1x, ./images/imgdesktop1@2x.webp 2x"
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/imgdesktop1.jpg 1x, ./images/imgdesktop1@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
                 class="work-pic"
-                src="./images/box2.jpg"
+                src="#"
                 alt="Людина працює за ноутбуком і тримає в руках мобільний телефон"
                 width="370"
               />
+              </picture>
               <p class="work-list__text">Мобільні додатки</p>
             </li>
             <li class="work-list__item">
-              <img
+              <picture>
+                  <source
+                    srcset="./images/imgdesktop3.webp 1x, ./images/imgdesktop3@2x.webp 2x"
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/imgdesktop3.jpg 1x, ./images/imgdesktop3@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
                 class="work-pic"
-                src="./images/box3.jpg"
+                src="#"
+                src="..jpg"
                 alt="Людина тримає в руках планшет"
                 width="370"
               />
+              </picture>
               <p class="work-list__text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     <!--наша команда-->
-    <!-- <section class="team section">
+    <section class="team section">
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
@@ -231,7 +248,7 @@
                 class="team-pic"
                 src="./images/igor.jpg"
                 alt="фото Ігоря Дем'яненко"
-                width="270"
+                
               />
               <div class="team-subject-text">
                 <h3 class="team-subject">Ігор Дем'яненко</h3>
@@ -280,7 +297,7 @@
                 class="team-pic"
                 src="./images/olga.jpg"
                 alt="фото Ольги Рєпіної"
-                width="270"
+                
               />
               <div class="team-subject-text">
                 <h3 class="team-subject">Ольга Рєпіна</h3>
@@ -329,7 +346,7 @@
                 class="team-pic"
                 src="./images/mykola.jpg"
                 alt="фото Миколи Тарасова"
-                width="270"
+                
               />
               <div class="team-subject-text">
                 <h3 class="team-subject">Микола Тарасов</h3>
@@ -378,7 +395,7 @@
                 class="team-pic"
                 src="./images/mykhailo.jpg"
                 alt="фото Михайла Єрмакова"
-                width="270"
+              
               />
               <div class="team-subject-text">
                 <h3 class="team-subject">Михайло Єрмаков</h3>
@@ -424,9 +441,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     <!-- Клієнти -->
-    <!-- <section class="clients section">
+    <section class="clients section">
         <div class="container">
           <h2 class="title">Постійні клієнти</h2>
           <ul class="clients-list list">
@@ -475,7 +492,7 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!--Підвал-->
     <!-- <footer class="footer">
@@ -590,7 +607,7 @@
       </div>
     </footer> -->
     <!-- modal window -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18">
@@ -672,9 +689,9 @@
           <button type="submit" class="btnmodal-form-submit">Відправити</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/menu.js"></script>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
