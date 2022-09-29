@@ -378,11 +378,6 @@ body {
   color: var(--accent-color);
 }
 
-.footer-box {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-social p {
   font-weight: 700;
   font-size: 14px;
@@ -419,15 +414,6 @@ body {
   fill: #fff;
 }
 
-.footer-info {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-info-part {
-  margin-right: 70px;
-}
-
 .submit {
   margin-left: auto;
 }
@@ -442,11 +428,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.footer-form {
-  display: flex;
-  align-items: center;
 }
 
 .footer-form-field {
