@@ -26,9 +26,7 @@
           </a>
           <ul class="menu-links list">
             <li class="menu-links__item">
-              <a href="./index.html" class="menu-links__link link "
-                >Студія</a
-              >
+              <a href="./index.html" class="menu-links__link link">Студія</a>
             </li>
             <li class="menu-links__item">
               <a href="./portfolio.html" class="menu-links__link link current"
@@ -86,25 +84,42 @@
           </ul>
           <ul class="mobile-menu__contacts-list list">
             <li class="mobile-menu__contacts-item">
-              <a href="tel:+380961111111" class="mobile-menu__contacts-tel link">
-                +38 096 111 11 11</a>
+              <a
+                href="tel:+380961111111"
+                class="mobile-menu__contacts-tel link"
+              >
+                +38 096 111 11 11</a
+              >
             </li>
-            <li class="mobile-menu__contacts-item"><a href="mailto:info@devstudio.com" class="mobile-menu__contacts-email link">
-              info@devstudio.com</a
-            ></li>
+            <li class="mobile-menu__contacts-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-menu__contacts-email link"
+              >
+                info@devstudio.com</a
+              >
+            </li>
           </ul>
           <ul class="mobile-menu__links-list list">
-            <li class="mobile-menu__links-item"><a class="mobile-menu__links-link link" href="#">Instagram</a></li>
-            <li class="mobile-menu__links-item"><a class="mobile-menu__links-link link" href="#">Twitter</a></li>
-            <li class="mobile-menu__links-item"><a class="mobile-menu__links-link link" href="#">Facebook</a></li>
-            <li class="mobile-menu__links-item"><a class="mobile-menu__links-link link" href="#">LinkedIn</a></li>
+            <li class="mobile-menu__links-item">
+              <a class="mobile-menu__links-link link" href="#">Instagram</a>
+            </li>
+            <li class="mobile-menu__links-item">
+              <a class="mobile-menu__links-link link" href="#">Twitter</a>
+            </li>
+            <li class="mobile-menu__links-item">
+              <a class="mobile-menu__links-link link" href="#">Facebook</a>
+            </li>
+            <li class="mobile-menu__links-item">
+              <a class="mobile-menu__links-link link" href="#">LinkedIn</a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
     <!--Портфоліо-->
     <main>
-      <section>
+      <section class="portfolio">
         <div class="section container">
           <h1 class="visually-hidden">Категорії</h1>
           <!--зробити заголовок невидимим-->
@@ -127,7 +142,54 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img src="./images/techno1.jpg" alt="ноутбук" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop01.webp    1x,
+                        ./images/imgdesktop01@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop01.jpg    1x,
+                        ./images/imgdesktop01@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab0.webp    1x,
+                        ./images/imgtab0@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab0.jpg    1x,
+                        ./images/imgtab0@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob0.webp    1x,
+                        ./images/imgmob0@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob0.jpg    1x,
+                        ./images/imgmob0@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/techno1.jpg" alt="ноутбук" />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -143,11 +205,51 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/poster2.jpg"
-                    alt="два чоловіка грають в баскетбол"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop02.webp    1x,
+                        ./images/imgdesktop02@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop02.jpg    1x,
+                        ./images/imgdesktop02@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab.webp    1x,
+                        ./images/imgtab@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/imgtab.jpg 1x, ./images/imgtab@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob.webp    1x,
+                        ./images/imgmob@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/imgmob.jpg 1x, ./images/imgmob@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/poster2.jpg"
+                      alt="два чоловіка грають в баскетбол"
+                    />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -165,11 +267,57 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/restoran3.jpg"
-                    alt="напис на фоні вертикальної риби"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop03.webp    1x,
+                        ./images/imgdesktop03@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop03.jpg    1x,
+                        ./images/imgdesktop03@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab1.webp    1x,
+                        ./images/imgtab1@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab1.jpg    1x,
+                        ./images/imgtab1@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob1.webp    1x,
+                        ./images/imgmob1@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob1.jpg    1x,
+                        ./images/imgmob1@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/restoran3.jpg"
+                      alt="напис на фоні вертикальної риби"
+                    />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -187,11 +335,54 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/projekt4.jpg"
-                    alt="навушники"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop04.webp    1x,
+                        ./images/imgdesktop04@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop04.jpg    1x,
+                        ./images/imgdesktop04@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab2.webp    1x,
+                        ./images/imgtab2@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab2.jpg    1x,
+                        ./images/imgtab2@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob2.webp    1x,
+                        ./images/imgmob2@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob2.jpg    1x,
+                        ./images/imgmob2@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/projekt4.jpg" alt="навушники" />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -209,11 +400,54 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/projekt5.jpg"
-                    alt="дві коробки"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop05.webp    1x,
+                        ./images/imgdesktop05@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop05.jpg    1x,
+                        ./images/imgdesktop05@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab3.webp    1x,
+                        ./images/imgtab3@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab3.jpg    1x,
+                        ./images/imgtab3@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob3.webp    1x,
+                        ./images/imgmob3@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob3.jpg    1x,
+                        ./images/imgmob3@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/projekt5.jpg" alt="дві коробки" />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -231,11 +465,57 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/inspiration6.jpg"
-                    alt="екран комп'ютера"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop06.webp    1x,
+                        ./images/imgdesktop06@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop06.jpg    1x,
+                        ./images/imgdesktop06@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab4.webp    1x,
+                        ./images/imgtab4@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab4.jpg    1x,
+                        ./images/imgtab4@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob4.webp    1x,
+                        ./images/imgmob4@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob4.jpg    1x,
+                        ./images/imgmob4@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/inspiration6.jpg"
+                      alt="екран комп'ютера"
+                    />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -253,7 +533,54 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img src="./images/magazine7.jpg" alt="журнал" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop07.webp    1x,
+                        ./images/imgdesktop07@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop07.jpg    1x,
+                        ./images/imgdesktop07@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab5.webp    1x,
+                        ./images/imgtab5@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab5.jpg    1x,
+                        ./images/imgtab5@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob5.webp    1x,
+                        ./images/imgmob5@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob5.jpg    1x,
+                        ./images/imgmob5@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/magazine7.jpg" alt="журнал" />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -271,11 +598,54 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/lab8.jpg"
-                    alt="бірка з написом"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop08.webp    1x,
+                        ./images/imgdesktop08@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop08.jpg    1x,
+                        ./images/imgdesktop08@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab6.webp    1x,
+                        ./images/imgtab6@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab6.jpg    1x,
+                        ./images/imgtab6@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob6.webp    1x,
+                        ./images/imgmob6@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob6.jpg    1x,
+                        ./images/imgmob6@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/lab8.jpg" alt="бірка з написом" />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -293,11 +663,57 @@
             <li class="category-item">
               <a href="#" class="categore-link link">
                 <div>
-                  <img
-                    src="./images/business9.jpg"
-                    alt="людина працює за ноутбуком"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/imgdesktop09.webp    1x,
+                        ./images/imgdesktop09@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgdesktop09.jpg    1x,
+                        ./images/imgdesktop09@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab7.webp    1x,
+                        ./images/imgtab7@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgtab7.jpg    1x,
+                        ./images/imgtab7@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob7.webp    1x,
+                        ./images/imgmob7@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/imgmob7.jpg    1x,
+                        ./images/imgmob7@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/business9.jpg"
+                      alt="людина працює за ноутбуком"
+                    />
+                  </picture>
                   <p class="category-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -316,7 +732,7 @@
     </main>
 
     <!--Підвал-->
-        <footer class="footer">
+    <footer class="footer">
       <div class="container footer-box">
         <div class="footer-info">
           <div class="footer-info-part">
