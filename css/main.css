@@ -137,6 +137,10 @@ body {
   color: var(--second-text-color);
 }
 
+.main-menu {
+  border-bottom: 1px solid #ececec;
+}
+
 @media screen and (max-width: 767px) {
   .menu-links {
     display: none;
@@ -343,9 +347,6 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .main-menu {
-    border-bottom: 1px solid #ececec;
-  }
   .header-contacts {
     display: flex;
     flex-direction: row;
@@ -828,6 +829,9 @@ body {
   }
   .mobail-menu__icon:hover, .mobail-menu__icon:focus {
     fill: var(--accent-color);
+  }
+  .mobile-menu__nav-item--current {
+    color: var(--accent-color);
   }
 }
 @media screen and (min-width: 768px) {

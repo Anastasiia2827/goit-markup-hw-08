@@ -1,3 +1,7 @@
+ .main-menu {
+     border-bottom: 1px solid #ececec;
+ }
+
 @media screen and (max-width: 767px) {
   .menu-links {
     display: none;
@@ -144,7 +148,7 @@
      display: none;
  }
 
-.menu-nav {
+ .menu-nav {
     display: flex;
     align-items: center;
 }
@@ -244,9 +248,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-.main-menu {
-        border-bottom: 1px solid #ececec;
-    }
 
 .header-contacts {
     display: flex;
